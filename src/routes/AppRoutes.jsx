@@ -9,7 +9,7 @@ const AppRoutes = () => (
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/users" element={<UserPage />} />
+        <Route path="/users/add-user" element={<UserPage />} />
         <Route path="/fixtures" element={<FixturePage />} />
       </Route>
     </Routes>
